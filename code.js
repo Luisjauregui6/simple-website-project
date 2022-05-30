@@ -6,22 +6,6 @@ function openNav() {
     document.getElementById("myNav").style.width = "0%";
   }
 
-//this function will add a clock to the main page  
-// function tellTime() {
-//   let now = new Date();
-//   let h = now.getHours();
-//   let m = now.getMinutes();
-//   let s = now.getSeconds();
-//   m = checkTime(m);
-//   s = checkTime(s);
-//   document.getElementById("clockContainer").innerHTML = h + ":" + m + ":" + s;
-//   let t = setTimeout(tellTime, 500);
-// }
-//  function checkTime(i) {
-//     if (i < 10) {i = "0" + i};
-//     return i;
-// }
-
 //function to add a clock to the main page
 function tellTime() {
   let now = new Date();
@@ -48,3 +32,8 @@ document.getElementById("clockDiv").innerText = time;
 let t = setTimeout(function(){ tellTime() } ,1000)
 }
 tellTime();
+
+//info sent example
+function sendInfo() {
+  alert("your info has been sent successfully");
+}
