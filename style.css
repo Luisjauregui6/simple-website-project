@@ -274,3 +274,9 @@ h2 {
     color: #FF4C29;
     font-size: 30px;
 }
+
+label {
+    text-align: center;
+    color: #FF4C29;
+    font-size: 20px;
+}
