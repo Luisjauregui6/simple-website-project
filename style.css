@@ -137,22 +137,20 @@ body {
 
 /*icon to return to ''index'' page*/
 .backHomeLinks {
-    color: white;
-    text-align: center;
-    padding: 15px 15px;
-    margin: 15px;
-    font-size: 18px;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
+    color: #000000;
+    background-color: #ffffff;
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
 }
 
 /*effects of mouse over back home icon*/
 .backHomeLinks:hover {
-    color: rgb(255, 255, 255);
-    transition: 1000ms linear;
-    background-color: rgb(71, 75, 75);
-    box-sizing: border-box;
-    border-radius: 15px 15px;   
+    color: #ff0000;
+    border: 2px solid #FF4C29;
+    transition: 200ms linear;
 }
 
 

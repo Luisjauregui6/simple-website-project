@@ -1,4 +1,4 @@
-//this function will display a special effect in the page
+//this function will display a overlay effect in the page
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
   }
@@ -36,4 +36,9 @@ tellTime();
 //info sent example
 function sendInfo() {
   alert("your info has been sent successfully");
+}
+
+//back home buttons function
+function backHome() {
+  let element = document.location.href = "index.html"
 }
